@@ -1,0 +1,52 @@
+body {
+  padding-left: 10%;
+  padding-right:10%;
+  background-color: #efefef;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 2.4em;
+  color: #003366;
+  font-family: Serif;
+}
+
+.byline {
+  font-size: 1.20em;
+}
+
+p {
+  font-size: 1.3em;
+  line-height: 1.3em;
+  padding-bottom: 20px;
+}
+
+.img-container {
+  width: 100%;
+}
+
+#img {
+  margin: auto;
+  display: block;
+}
+
+.cutline {
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+li {
+  font-size: 1.3em;
+  padding-bottom: 10px;
+}
+
+#content {
+  width: 50%;
+  margin: auto;
+}
+
+@media (orientation: portrait) {
+  #content {
+    width: 100%;
+  }
+}
