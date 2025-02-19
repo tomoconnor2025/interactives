@@ -67,7 +67,8 @@ li {
   margin: auto;
 }
 
-desktop/
+/*
+desktop/ */
 #content {
   width: 75%;
   margin: auto;
@@ -75,7 +76,8 @@ desktop/
   font-size: 1.5em;
 }
 
-phone/
+/*
+phone/ */
 @media (orientation: portrait)
   #content {
     width: 100%;
