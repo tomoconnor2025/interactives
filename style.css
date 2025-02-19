@@ -1,7 +1,7 @@
 body {
   padding-left: 10%;
   padding-right:10%;
-  background-color: #efefef;
+  background-color: #ffffff;
   font-family: sans-serif;
 }
 
@@ -10,6 +10,27 @@ h1 {
   font-size: 2.4em;
   color: #003366;
   font-family: Serif;
+}
+
+h2 {
+  font-size: 1.0em;
+}
+
+#nav-bar {
+  padding: auto;
+  display: flex;
+  flex-direction:inherit
+}
+
+.nav-button {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.nav-button a {
+  background-color:#d0c6c1;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .byline {
@@ -46,8 +67,18 @@ li {
   margin: auto;
 }
 
-@media (orientation: portrait) {
+desktop/
+#content {
+  width: 75%;
+  margin: auto;
+  line-height: 1.5em;
+  font-size: 1.5em;
+}
+
+phone/
+@media (orientation: portrait)
   #content {
     width: 100%;
-  }
+    line-height: 1.5em;
+    font-size: 1.5em;
 }
